@@ -1,0 +1,19 @@
+{
+  "name": "heroku node",
+  "description": "This is test app",
+  "scripts": {
+    "postdeploy": "bundle exec rake bootstrap"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/nguyenthanhhien/heroku-node.git"
+    }
+  ]
+}
